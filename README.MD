@@ -6,7 +6,7 @@ It supports both single and bulk post URLs and features automatic login handling
 
 The script saves all extracted data into a structured Excel file (Facebook_Posts.xlsx), making it ideal for research, analytics, or content performance tracking.
 
-
+-------------------------------------------------------------------------------------------------------------
 
 🚀 Key Features
 
@@ -65,6 +65,7 @@ pip install -r requirements.txt
 In the root folder of your project, create a .env file and add your Facebook credentials:
 
 FACEBOOK_EMAIL=your_facebook_email
+
 FACEBOOK_PASSWORD=your_facebook_password
 
 
@@ -105,7 +106,7 @@ LIKES	COMMENTS	SHARES	URL	CREATEDATE
 	24/10/25 09:37 AM
 
 📁 Output File: Facebook_Posts.xlsx
-
+-----------------------------------------------------------------------------------------------------
 🧩 Project Structure
 Extract-Facebook-Posts/
 │
@@ -129,6 +130,8 @@ facebook_posts.txt → Input file for URLs to scrape
 
 .env → Stores Facebook login credentials securely
 
+--------------------------------------------------------------------
+
 💡 Tips
 
 Ensure you’re using the latest version of Chrome and ChromeDriver.
@@ -137,11 +140,15 @@ For large batches of URLs, use reasonable delays to avoid being flagged by Faceb
 
 Run the script in non-headless mode (default) to debug login or scraping issues.
 
+---------------------------------------------------------------------------------------------------
+
 ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only.
 Automating interactions with Facebook may violate its Terms of Service.
 Use responsibly and only on accounts or pages you own or have permission to access.
+
+--------------------------------------------------------------------------------------------------------
 
 ✨ Author & Contribution Notes
 
