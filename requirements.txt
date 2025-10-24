@@ -1,0 +1,7 @@
+selenium
+openpyxl
+pandas
+webdriver-manager
+pillow
+backoff
+selenium-stealth
